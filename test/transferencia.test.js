@@ -14,6 +14,7 @@ describe('Transferências', () => {
                     'senha': '123456'
                 })
             
+                
             const token = respostaLogin.body.token
 
             const resposta = await request(process.env.BASE_URL)
